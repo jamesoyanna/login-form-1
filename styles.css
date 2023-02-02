@@ -1,0 +1,39 @@
+form {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(252, 224, 224);
+    border-radius: 25px;
+    color: sandybrown;
+    background-color: silver;
+}
+
+label {
+    display:block;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 60%;
+    padding: 10px;
+    background-color: #4c4c4c;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+footer {
+   padding: 10px;
+}
+
