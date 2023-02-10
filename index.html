@@ -9,7 +9,14 @@
 </head>
 <body>
 
-    <form action="" id="login-form">
+    <div class="popup" id="popup">
+        <img src="check.gif" />
+        <h2>Thank You</h2>
+        <p>Your details has been submitted successfully. Thanks</p>
+        <button onclick="closePopup()" type="button" class="'btn">OK</button>
+    </div>
+
+    <form id="login-form">
            <h1>Login-Form</h1>
         <div>
             <label for="username">Username:</label>
@@ -29,7 +36,7 @@
 
             <footer>@bencode</footer>
       
-        </div>
+        </div>  
     </form>
       <script src="main.js"></script>
 </body>

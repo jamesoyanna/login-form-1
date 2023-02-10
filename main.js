@@ -1,16 +1,22 @@
-const form = document.querySelector("#login-form");
-alert("successful");
+const form  = document.querySelector("#login-form");
+const  popup = document.getElementById("popup")
+
+const username = document.getElementById("username")
+const password = document.getElementById("password")
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+    username.value =""
+    password.value =""
+    openPopup();
+
+})
 
 
-// form.addEventListener("submit", function(event) {
-//     event.preventDefault();
+function openPopup(){
+popup.classList.add("openPopup");
+}
 
-// });
+function closePopup(){
+    popup.classList.remove("openPopup");
+}
 
-window.addEventListener("resize", function() {
-    if(this.window.innerWidth <= 500) {
-        form.getElementsByClassName.width = "100%";
-    } else {
-        FormDataEvent.style.width = "300px";
-    }
-});
